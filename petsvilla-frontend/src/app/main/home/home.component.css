@@ -1,0 +1,83 @@
+.inner-module-container .header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.home-content .inner-container {
+    width: 60rem;
+    padding: 1% 0%;
+    margin-top: 5rem;
+}
+.home-content .row {
+    margin-bottom: 5rem;
+}
+.home-content .row .col-xl-7 {
+    padding: 0;
+}
+.home-content .row .col-xl-7 .post {
+    margin-bottom: 3%;
+    width: 100%;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: white;
+}
+.home-content .post .card-header {
+    padding: 0;
+    padding-top: 8px;
+    background-color: white;
+}
+.home-content .post .card-header .row {
+    margin: 5px;
+}
+.home-content .post .card-header img {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border: 3px solid rgba(50, 216, 61, 0.849);
+    border-radius: 50%;
+}
+.home-content .post .card-header span {
+    font-weight: 500;
+}
+.home-content .post .card-image {
+    width: 100%;
+}
+.home-content .post .card-image img {
+    width: 100%;
+    height: auto;
+}
+.home-content .post .action-btn {
+    padding: 0;
+    margin: 10px;
+}
+.home-content .post .action-btn .row {
+    margin: 0;
+    margin-top: 5px;
+}
+.home-content .post .action-btn .row button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+.home-content .post .action-btn .row .col-sm-1 {
+    padding: 0;
+    text-align: center;
+}
+.home-content .post .action-btn .row button img {
+    width: 30px;
+    height: 30px;
+}
+.home-content .post .post-status {
+    margin: 15px;
+}
+.home-content .post .post-status p span {
+    font-weight: 500;
+}
+.home-content .row .col-xl-5 p {
+    position: fixed;
+}

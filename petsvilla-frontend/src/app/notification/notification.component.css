@@ -1,0 +1,60 @@
+.notification-content {
+    width: 35rem;
+    border: 1px solid black;
+    padding: 1% 0%;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgba(240, 255, 241, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.notification-content .request-tabs .row {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2%;
+}
+.notification-content .request-tabs .row .col-sm-4 {
+    text-align: center;
+    padding: 5px;
+}
+.notification-content .request-tabs .row .col-sm-4 button {
+    border: 2px solid rgb(126, 126, 126);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(65, 65, 65);
+}
+.notification-content .request-tabs .row .col-sm-4 button:hover {
+    background: linear-gradient(180deg, #0ac28b10, #47d8c00e);
+}
+.notification-content .request-tabs .row .col-sm-4 button:focus {
+    outline: none;
+    color: white;
+    background: linear-gradient(180deg, #0ac28b, #47d8c0);
+}
+.notification-content .all-notifications .notification .row {
+    border-top: 1px solid rgb(194, 194, 194);
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+.notification-content .all-notifications .notification .row .col-sm-2 {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.notification-content .all-notifications .notification img {
+    width: 45px;
+    height: 45px;
+}
+.notification-content .all-notifications .notification .row .col-sm-10 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.notification-content .all-notifications .notification .row .col-sm-10 span{
+    font-weight: 500;
+}

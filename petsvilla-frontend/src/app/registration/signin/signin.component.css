@@ -1,0 +1,114 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.signin-container .inner-container {
+    width: 25rem;
+    margin: 2% 0%;
+}
+.signin-container .first-container {
+    border: 2px solid rgb(240, 240, 240);
+    background-color: white;
+    font-size: 13px;
+    padding: 3% 8%;
+}
+.signin-container mat-form-field {
+    font-size: 12px;
+    width: 100%;
+}
+#login-btn {
+    width: 100%;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #0ac28b, #47d8c0);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+#login-btn:focus {
+    outline: none;
+}
+.signin-container .header-logo {
+    text-align: center;
+}
+.signin-container .header-logo h1 {
+    font-family: "logo font";
+    padding-bottom: 3%;
+    padding-top: 7%;
+    font-size: 60px;
+}
+.signin-container .first-container .forget-password {
+    margin: 3%;
+    text-align: right;
+    color: rgb(100, 100, 100);
+}
+.signin-container .first-container .wrong-password {
+    margin: 3%;
+    text-align: center;
+    padding: 1px 5px;
+    color: rgb(250, 59, 59);
+}
+.signup-option {
+    margin: 3% 0%;
+    border: 2px solid rgb(240, 240, 240);
+    width: 100%;
+    background-color: white;
+    padding: 3% 8%;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+.signup-option span { 
+    color: rgb(0, 119, 255);
+}
+.signin-container .second-container {
+    font-size: 15px;
+    text-align: center;
+}
+/* form material style*/
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+}
+
+.example-right-align {
+text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+display: none;
+}
+
+input.example-right-align {
+-moz-appearance: textfield;
+}
+
+/* responsive style */
+@media only screen and (max-width: 500px) {
+    .signin-container .inner-container {
+        width: 95%;
+    }
+}
+  
+/*button spinner*/
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+   
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    border-top-color: #000000;
+    animation: spinner .8s linear infinite;
+}

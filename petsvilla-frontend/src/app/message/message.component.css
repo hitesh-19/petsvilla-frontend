@@ -1,0 +1,86 @@
+.message-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.message-content .inner-container {
+    width: 60rem;
+    height: 33rem;
+    padding: 1% 0%;
+    margin-top: 5rem;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 0;
+}
+.message-content .inner-container .row {
+    padding: 0;
+    margin: 0;
+} 
+.message-content .row .col-xl-5 {
+    background-color: white;
+    padding: 0;
+    border-right: 1px solid rgb(207, 207, 207);
+    border-bottom: 1px solid rgb(207, 207, 207);
+    height: 33rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.message-content .row .col-xl-5 .chat-header {
+    width: 100%;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-bottom: 10px;
+}
+.message-content .row .col-xl-5 .chat-header h3 {
+    margin: 0;
+    font-weight: 500;
+    padding: 15px;
+}
+.message-content .row .col-xl-5 .friends {
+    width: 100%;
+    padding: 0;
+}
+.message-content .row .col-xl-5 .row {
+    border: none;
+    padding: 10px 0px;
+    margin: 0;
+    width: 100%;
+}
+.message-content .row .col-xl-5 .row:hover {
+    background-color: rgb(245, 245, 245);
+}
+.message-content .row .col-xl-5 .row .col-sm-3 {
+    display: flex;
+    justify-content: center;
+}
+.message-content .row .col-xl-5 .row .col-sm-3 img {
+    width: 50px;
+    height: 50px;
+}
+.message-content .row .col-xl-5 .row .col-sm-9 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.message-content .row .col-xl-5 .row .col-sm-9 span {
+    cursor: default;
+    font-weight: 500;
+}
+.message-content .col-xl-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.message-content .col-xl-7 .direct-message img {
+    width: 10rem;
+    height: 10rem;
+}
+.message-content .col-xl-7 .direct-message h1 {
+    font-weight: 600;
+    font-size: 30px;
+}

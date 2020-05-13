@@ -1,0 +1,45 @@
+<div class="signup-container">
+    <div class="inner-container">
+        <div class="first-container">
+            <div class="header-logo">
+                <h1>Petsvilla</h1>
+                <p>To make better world for pets</p>
+            </div>
+            <div class="form-container">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email or Phone number</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline">
+                    <mat-label>Full Name</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline">
+                    <mat-label>Username</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                </mat-form-field>
+                <br>
+                <div style="text-align: center;">
+                    <button mat-raised-button id="signup-btn" [class.spinner]="loading" [disabled]="loading" (click)="save()">Sign Up</button>
+                </div>
+                
+                <div class="agree-condition">
+                    <p>By sigining up, you agree to our Terms, Data Policy and Cookies Policy</p>
+                </div>
+            </div>
+        </div>
+        <div class="login-option">
+            <p>Already have an account? <span>Log In</span></p>
+        </div>
+    </div>
+</div>

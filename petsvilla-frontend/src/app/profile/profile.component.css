@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.profile-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.profile-content .inner-container {
+    width: 60rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.profile-content .cover-image {
+    max-width: 100%;
+    max-height: 25rem;
+}
+.profile-content .cover-image img {
+    width: 100%;
+    height: 25rem;
+}
+.profile-content .main-image {
+    margin-top: -8rem;
+}
+.profile-content .main-image .col-lg-5 {
+    display: flex;
+    justify-content: center;
+}
+.profile-content .main-image .col-lg-5 img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    border: 3px solid rgba(240, 255, 241, 1);
+}
+.profile-content .main-image .col-lg-7 {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.profile-content .main-image .col-lg-7 .username {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.profile-content .main-image .col-lg-7 .username .col-sm-12 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(26, 26, 26);
+    font-weight: 500;
+}
+.profile-content .main-image .col-lg-7 .username .col-sm-12 img {
+    width: 25px;
+    height: 25px;
+}
+.profile-content .main-image .col-lg-7 .username .col-sm-2{
+    text-align: center;
+}
+.profile-content .main-image .col-lg-7 .username .col-sm-2 span {
+    width: 100%;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile-content .profile-status {
+    padding: 1rem 10rem;
+}
+.profile-content .profile-status h1 {
+    margin: 2px;
+}
+.profile-content .profile-status p {
+    font-size: 16px;
+}
+.profile-content .share-content {
+    border: 1px solid rgb(206, 206, 206);
+    background-color: white;
+}
+.profile-content .share-content .post-images .col-lg-3 {
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+}
+.profile-content .share-content .post-images img {
+    width: 15rem;
+    height: 15rem;
+}

@@ -1,0 +1,42 @@
+<div class="signin-container">
+    <div class="inner-container">
+        <div class="first-container">
+            <div class="header-logo">
+                <h1>Petsvilla</h1>
+            </div>
+            <div class="form-container">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email, Phone number or username</mat-label>
+                    <input matInput>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="outline">
+                    <mat-label>Enter your password</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                </mat-form-field>
+                <br>
+                <div style="text-align: center;">
+                    <button mat-raised-button id="login-btn" [class.spinner]="loading" [disabled]="loading" (click)="save()">Log In</button>
+                </div>
+                <div class="forget-password">
+                    <p>Forget password?</p>
+                </div>
+                <div class="wrong-password">
+                    <p>Sorry, your password is incorrect. Please check your password</p>
+                </div>
+            </div>
+        </div>
+        <div class="signup-option">
+            <p>Don't have account? <span>Sign Up</span></p>
+        </div>
+        <div class="second-container">
+            <div class="get-app">
+                <!--<p>Get the app.</p>-->
+                <img src="../../../assets/images/get mobile app.JPG" style="width: 25rem; height: 8rem;">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="footer-container" style="position: relative;">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2" (click)="home()">
+            <img [src]="home_image">
+        </div>
+        <div class="col-sm-2" (click)="explore()">
+            <img [src]="explore_image">
+        </div>
+        <div class="col-sm-2" (click)="toggle()">
+            <img [src]="notification_image">
+        </div>
+        <div class="col-sm-2" (click)="message()">
+            <span matBadge="4" matBadgeOverlap="true"  matBadgeSize="small" matBadgeColor="warn">
+                <img [src]="message_image" style="width: 35px; height: 35px;">
+            </span>
+        </div>
+        <div class="col-sm-2" (click)="profile()">
+            <img src="../../../assets/icons/avatar.png">
+        </div>
+    </div>
+</div>
+<div class="dropdown-content" style="position: absolute; z-index: 1; margin-top: 1%; right: 4%;" *ngIf="toggleNotification">
+    <app-notification></app-notification>
+</div>

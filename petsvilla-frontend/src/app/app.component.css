@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    height: 100%;
+    width: 100%;
+}
+.main-container .header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.background-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 255, 241, 0.849);
+}
+@font-face {
+    font-family: "logo font";
+    src: url(../../../../fonts/raphtalia-font/Raphtalia-2ZmK.ttf);
+}
+@font-face {
+    font-family: "sublogo font";
+    src: url(../../../../fonts/fall-is-coming-font/FallIsComingRegular-Mx9B.ttf);
+}
