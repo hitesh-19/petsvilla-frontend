@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "logo font";
+    src: url(../../../../../fonts/raphtalia-font/Raphtalia-2ZmK.ttf);
+}
+@font-face {
+    font-family: "sublogo font";
+    src: url(../../../../../fonts/fall-is-coming-font/FallIsComingRegular-Mx9B.ttf);
+}

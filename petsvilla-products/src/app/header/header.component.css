@@ -1,0 +1,83 @@
+.header-container {
+    width: 100%;
+    background-color: rgb(152,251,152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.header-container .header-content {
+    text-align: center;
+}
+.header-container .header-content h1{
+    font-family: "logo font";
+    font-size: 55px;
+}
+.header-container .header-content p {
+    font-family: "sublogo font";
+    font-size: 30px;
+}
+.header-navbar {
+    display: block;
+    background-color: black;
+    padding: 0;
+}
+.header-navbar .row {
+    margin: 0;
+    padding: 0;
+}
+.header-navbar .row .col-md-2 {
+    color: white;
+    font-size: 17px;
+    border-left: 1px solid white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.header-navbar .row .col-md-2:hover {
+    transition: 0.2s ease;
+    background-color: rgb(144,238,144);
+    color: black;
+    border-left: rgb(152,251,152);
+}
+.header-responsive-navbar {
+    display: none;
+}
+
+/* Responsive design*/
+@media only screen and (max-width: 500px) {
+    .header-container {
+        padding: 3px;
+    }
+    .header-container .header-content h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .header-container .header-content p {
+        font-size: 20px;
+        margin: 0;
+    }
+    .header-navbar {
+        display: none;
+    }
+    .header-responsive-navbar {
+        display: block;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+    .header-responsive-navbar .tabs {
+        color: white;
+        font-size: 17px;
+        padding: 3px;
+        border-right: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+    .header-responsive-navbar .tabs:focus {
+        background-color: rgb(144,238,144);
+        border-right: rgb(152,251,152);
+    }
+}
