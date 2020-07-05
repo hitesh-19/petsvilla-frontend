@@ -33,12 +33,18 @@
     text-align: center;
     margin: 0;
     padding: 10px;
+    cursor: pointer;
 }
 .header-navbar .row .col-md-2:hover {
     transition: 0.2s ease;
     background-color: rgb(144,238,144);
     color: black;
     border-left: rgb(152,251,152);
+}
+.header-navbar .row .col-md-2:focus {
+    border: 2px solid while;
+    outline: none;
+    color: rgb(144,238,144);
 }
 .header-responsive-navbar {
     display: none;
@@ -77,7 +83,7 @@
         text-align: center;
     }
     .header-responsive-navbar .tabs:focus {
-        background-color: rgb(144,238,144);
-        border-right: rgb(152,251,152);
+        outline: none;
+        color: rgb(144,238,144);
     }
 }
