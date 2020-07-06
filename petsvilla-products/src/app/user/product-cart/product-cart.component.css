@@ -59,3 +59,36 @@
     padding: 5px 15px;
     margin-bottom: 10px;
 }
+.product-added {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.product-added .added-inner {
+    text-align: center;
+}
+.product-added .added-inner h3 {
+    color: white;
+    text-shadow: 1px 2px 2px 1px black;
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 500px) {
+    .product-detail-container {
+        margin: 0;
+        padding: 0;
+    }
+    .product-detail-container .quantity-price {
+        display: flex;
+        margin: 25px;
+    }
+    .product-added {
+        width: 100%;
+        height: 100vh;
+    }
+}

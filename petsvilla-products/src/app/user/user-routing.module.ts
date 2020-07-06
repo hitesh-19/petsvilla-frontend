@@ -5,11 +5,13 @@ import { HomeComponent } from './home/home.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { RescueComponent } from './rescue/rescue.component';
 import { ProductCartComponent } from './product-cart/product-cart.component';
+import { PlaceOrderComponent } from './place-order/place-order.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'products', component: ProductListComponent},
   {path: 'product-detail', component: ProductCartComponent},
+  {path: 'orders', component: PlaceOrderComponent},
   {path: 'rescue', component: RescueComponent}
 ];
 
