@@ -7,6 +7,9 @@ import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatBadgeModule } from '@angular/material/badge';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
     UserModule,
-    AdminModule
+    AdminModule,
+    NoopAnimationsModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

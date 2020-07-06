@@ -8,3 +8,5 @@
     font-family: "sublogo font";
     src: url(../../../../../fonts/fall-is-coming-font/FallIsComingRegular-Mx9B.ttf);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
