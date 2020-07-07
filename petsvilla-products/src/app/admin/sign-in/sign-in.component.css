@@ -1,0 +1,14 @@
+.signin-container {
+    margin: 5rem 10rem;
+}
+.signin-container h4 {
+    text-align: center;
+    margin: 10px;
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 500px) {
+    .signin-container {
+        margin: 10px;
+    }
+}

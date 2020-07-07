@@ -19,3 +19,17 @@
 .home-container .about-us {
     margin: 1rem 15rem;
 }
+
+/*Responsive design*/
+@media only screen and (max-width: 500px) {
+    .home-container .head-image {
+        margin: 0;
+        height: 40vh;
+    }
+    .home-container .description {
+        margin: 5px;
+    }
+    .home-container .about-us {
+        margin: 5px;
+    }
+}

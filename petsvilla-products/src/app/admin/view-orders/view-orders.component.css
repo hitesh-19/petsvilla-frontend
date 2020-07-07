@@ -1,0 +1,62 @@
+.row {
+    margin: 0;
+    padding: 0;
+}
+.row .col-xl-2 {
+    padding: 0;
+}
+.view-orders-container {
+    margin: 2rem;
+}
+.view-orders-container h4 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.view-orders-container .customer-order-details {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.view-orders-container .customer-order-details .customer-details {
+    padding: 20px;
+}
+.view-orders-container .customer-order-details .customer-details h5 {
+    display: flex;
+    justify-content: space-between;
+}
+.view-orders-container .customer-order-details .ordered-products {
+    margin: 0;
+    padding: 0;
+}
+.view-orders-container .customer-order-details .ordered-products .row {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.view-orders-container .customer-order-details .ordered-products .row .col-sm-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-orders-container .customer-order-details .ordered-products .row .col-sm-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-orders-container .customer-order-details .ordered-products .row .col-sm-2 img {
+    width: 5rem;
+    height: 5rem;
+}
+.view-orders-container .customer-order-details .total-amount {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-right: 50px;
+    color: rgb(221, 6, 6);
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 500px) {
+    .view-orders-container {
+        margin: 10px;
+    }
+}

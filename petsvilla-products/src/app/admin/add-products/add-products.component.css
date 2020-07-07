@@ -1,0 +1,18 @@
+.row {
+    margin: 0;
+    padding: 0;
+}
+.row .col-xl-2 {
+    padding: 0;
+}
+.add-product-container {
+    margin: 5rem 10rem;
+    text-align: center;
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 500px) {
+    .add-product-container {
+        margin: 5px;
+    }
+}
